@@ -1,0 +1,282 @@
+body {
+    /* tamano da pagina */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    /* preenchimento do menu superior */
+    padding: 0px!important;
+}
+
+main,
+.titulo {
+    /* borda superior do menu superior */
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.menu-principal {
+    /* primeira borda leão*/
+    width: 100%;
+    background-color: black;
+    height: 85px;
+    border-bottom: 3px solid #6959CD;
+}
+
+.logo {
+    /*logo do leão */
+    float: left;
+    padding: 10px;
+    width: 75%;
+}
+
+.redes-sociais ul li {
+    /*distancia dos logos */
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.redes-sociais {
+    /* posição */
+    width: 20%;
+    float: left;
+}
+
+.header-2 {
+    /* parte superior dos menus*/
+    background-color: white;
+    width: 1210px;
+    margin: 0 auto;
+    border-bottom: 3px solid #6959cd;
+    padding: 50px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.menu ul li {
+    /* separação do menu superior */
+    display: inline-block;
+    margin-left: 50px;
+    height: 0px;
+}
+
+.menu ul li a:hover {
+    /* borda do menu quando passar o mause*/
+    border-bottom: 2px solid #00BFFF;
+}
+
+.menu ul li a:hover {
+    /*cor do menu quando passar o mause*/
+    color: #00BFFF;
+}
+
+.menu ul li a {
+    /* menu superior */
+    color: #c0c0c0;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.menu {
+    /* posição menu superior */
+    width: 80%;
+    float: left;
+}
+
+.busca {
+    /* posição bucador */
+    width: 20%;
+    float: right;
+}
+
+.busca input {
+    /* buscador imagem logo da lupa */
+    background-image: url("../Img/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 15px;
+    padding: 5px;
+    width: 160px;
+    margin-left: -30px;
+    border: 1px solid #c0c0c0;
+}
+
+.coluna {
+    /*coluna superior posição e tamanho */
+    width: 100%;
+    float: none;
+    position: relative;
+}
+
+.slide-principal {
+    /* slide's  tamanho e posição */
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 0em;
+}
+
+button.slick-prev {
+    /*seta da esquerda slide */
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    top: 50%;
+    background-image: url("../Img/esquerda.png");
+}
+
+button.slick-next {
+    /* seta da direita slider */
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    top: 50%;
+    background-image: url("../Img/direita.png");
+}
+
+.slick-dots li button {
+    /*bolinhas do slider cor e tamanho */
+    font-size: 0px;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.slick-dots {
+    /*posição das bolinhas */
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 90%;
+}
+
+.slick-dots li {
+    /* separação e alinhamento das bolinhas*/
+    display: inline-block;
+    padding-left: 10px;
+}
+
+li.slick-active button {
+    /* cor quando passar o mause nas bolinhas do slide*/
+    background: #00BFFF;
+}
+
+.titulo {
+    /* titulo e paragrafo abaixo são cor e tamanho da fonte */
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+.titulo strong {
+    color: black;
+}
+
+.titulo p {
+    font-size: 15px;
+    color: darkgrey;
+}
+
+.col-3 {
+    /* três imagens com texto ´posição distancia  */
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: right;
+    position: relative;
+}
+
+.três-bloco-texto {
+    /* subir duas imagens com texto img,pc*/
+    margin-top: 3em;
+}
+
+h3 {
+    /*fonte arrumada que o google chrome styla sozinho*/
+    font-weight: normal!important;
+}
+
+.col-3 {
+    /*alinhar as imagens as 6 imagens inferiores*/
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative
+}
+
+.bloco-imagen-texto img {
+    /*tamanho do quadro inferior 6 imagens*/
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+
+/* 2 fotos do lado da principal parte inferior */
+
+.bloco-imagen-texto {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 15px
+}
+
+.bloco-imagen-texto p,
+b {
+    text-align: left;
+}
+
+.bloco-imagen-texto {
+    background-color: #eeeeee;
+}
+
+.bloco-imagen-texto :before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #eeeeee;
+    background-image: url("../Img/seta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-.bloco-imagen-texto {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
+}
+
+
+/* alteração */
